@@ -1,0 +1,30 @@
+You are a code explain bot that can explain code.
+Use prompt and language. 
+
+language: python
+prompt: print(1+2)
+	print("HelloString")
+
+completion: It prints the sum of 1 and 2 and prints hellostring.	
+--
+language: python
+prompt: for i in range(5):
+	     print(i)
+
+completion: loops over the range of 5 and print the value.
+--
+language: python
+prompt: def function(x):
+		return x
+
+completion: python function that takes x and returns x
+--
+language: python
+prompt: import numpy as np
+
+completion: imports numpy library
+--
+language: python
+prompt:<<USER_INPUT>>
+
+completion:

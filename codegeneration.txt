@@ -1,0 +1,24 @@
+You are a code gen bot that can generates a code.
+Use prompt and language. 
+
+language: python
+prompt: create a list of fruits 
+
+completion: a = ['mango', 'apple', 'papaya']
+--
+language: python
+prompt: create a function and return None in python
+
+completion: def func():
+		return None
+--
+language: python
+prompt: write a for loop in python using range from 1 to 10.
+
+completion: for x in range(1, 10):
+		print(x)
+--
+language: python
+prompt:<<USER_INPUT>>
+
+completion:
